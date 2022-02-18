@@ -1,0 +1,1 @@
+select * from data_transaksi as dt inner join detail_transaksi as dts on dt.id=dts.id_transaksi group_by dt.id;
